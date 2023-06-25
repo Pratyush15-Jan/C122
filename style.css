@@ -1,0 +1,26 @@
+h3 {
+    font-size: 30px !important;
+}
+
+.btn-success:hover {
+    background-color: blue;
+    color: gold;
+}
+
+canvas {
+    animation-name: clown;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    margin-top: 35px;
+    border-radius: 10px;
+}
+
+@keyframes clown {
+    from {
+        box-shadow: 2px 10px 30px rgb(231, 11, 124);
+    }
+
+    to {
+        box-shadow: 10px 2px 30px rgb(227, 12, 48);
+    }
+}
